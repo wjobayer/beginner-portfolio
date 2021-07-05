@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 80vh;
+}
+.header{
+    background-color:rgb(238, 230, 230);
+}
+h1{
+    font-size: 40px;
+    line-height: 30px;
+}
+h2{
+    font-size: 35px;
+}
+.color{
+    color: orange;
+}
+.half-width{
+    width:50%;
+    float:left;
+    padding: 4% 6% 0% 10%;
+}
+.half-width img{
+    width:80%;
+}
+.description{
+    padding-top: 90px;
+}
+.half-width a{
+text-decoration: none;
+color: orange;
+background-color: white;
+padding:10px 22px;
+border-radius: 5px;
+}
